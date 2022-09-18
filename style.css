@@ -9,7 +9,7 @@
 body {
     font-family: 'Muli',sans-serif;
     color: #222;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 .container {
@@ -69,7 +69,8 @@ nav ul {
 }
 
 .hero {
-    background-image: url('https://images4.alphacoders.com/697/697798.jpg');
+    margin-top: 25px;
+    background-image: url('https://cdn.wccftech.com/wp-content/uploads/2016/06/call-of-duty-modern-warfare-remastered-cover-header-1-copy_uahe.1920.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
@@ -113,4 +114,18 @@ nav ul {
     color: #555;
     line-height: 30px;
     letter-spacing: 1px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    font-weight: bold;
+}
+
+footer:hover {
+    color: #c0392b;;
 }
